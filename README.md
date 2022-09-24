@@ -11,5 +11,8 @@ Here I'll be displaying mainly contents created by me about the subject and the 
 - Vijay Janapa Reddi et al. Widening Access to Applied Machine Learning with TinyML [![Arxiv](https://img.shields.io/badge/paper-arxiv-red)](https://arxiv.org/pdf/2106.04008.pdf)
   - My summary about the paper: [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Summaries/First%20Paper)
 
+- Intelligence at the Extreme Edge: A Survey on Reformable TinyML [![Arxiv](https://img.shields.io/badge/paper-arxiv-red)](https://arxiv.org/pdf/2204.00827.pdf)
+  - My summary about the paper: [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Summaries/First%20Paper)
+
 ## :books: Reference 
 - Ivanovitch's course repository ([Github](https://github.com/ivanovitchm/embedded.ai))
