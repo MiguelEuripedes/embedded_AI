@@ -1,4 +1,4 @@
-# Summary of the paper: Intelligence at the Extreme Edge: A Survey on Reformable TinyML
+# Summary of the paper: _Intelligence at the Extreme Edge: A Survey on Reformable TinyML_
 
 Author: Miguel Euripedes Nogueira do Amaral
 
