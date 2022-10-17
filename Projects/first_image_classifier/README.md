@@ -1,7 +1,5 @@
 # Model Card: First Image Classifier Project
 
-Model cards are a succinct approach for documenting the creation, use, and shortcomings of a model. The idea is to write a documentation such that a non-expert can understand the model card's contents. For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
-
 ## Model Details
 Miguel Euripedes created these models as part of the first project of the discipline of Embedded AI, using Ivanovitch's notebooks as reference. These models are currently in the first version (1.0) and were created on October 16, 2022.
 A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN model, a MLP model and finally a CNN model. 
@@ -88,3 +86,4 @@ It should be noted that the model trained in this project was used only for vali
 
 ## References
 - [Ivanovitch's repository for embedded artificial intelligence repository](https://github.com/ivanovitchm/embedded.ai)
+- [Model Card paper](https://arxiv.org/pdf/1810.03993.pdf)
