@@ -29,7 +29,7 @@ For each model, the following hyperparameters were first selected:
         - Hidden layer = None
         - Learning rate = 0.005
 
-Later in the projects, specially the MLP and CNN models, it was used W&B's hyperparameter tuning tool (Sweep), so at the end of the project the stored model may receive different values ​​from those mentioned above
+Later in the projects, specially the MLP and CNN models, it was used W&B's hyperparameter tuning tool (Sweep), so at the end of the project the stored model may receive different values from those mentioned above, since that for the CNN we display a initial configuration and in the other hand for the MLP model its already displayed the best configuration obtained with the W&B Sweeps. 
 
 ## Intended Use
 This model is used as a proof of concept for the evaluation of an entire data pipeline incorporating Machine Learning fundamentals used in the undergraduate course. The data pipeline is composed of the following stages: a) ``fecht data``, b) ``preprocess``, c) ``data segregate``, e) ``train`` and f) ``test``.
