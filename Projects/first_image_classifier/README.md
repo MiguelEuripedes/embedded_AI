@@ -8,7 +8,7 @@ A complete data pipeline was built using Google Colab, Scikit-Learn and Weights 
 
 The big-picture of the data pipeline for all 3 models is shown below:
 
-<img width="800" src="/Workflow.png">
+<img width="800" src="Workflow.png">
 
 In the figure above, for each green block represents a colab notebook that can be found in the repository. For each project the `fetch_data` stage is commom to all of them
 That said for each model they all have a individual set of notebooks made specially for the model. Even so, they follow the pattern shown in the figure, where the green blocks represent the notebooks that generate the artifacts (blue blocks) to be stored at the WandB project.
