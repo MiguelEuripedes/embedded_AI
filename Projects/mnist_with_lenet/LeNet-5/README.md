@@ -40,6 +40,21 @@ I decided to use this method in order to experiment better the use of our hyperp
 
 *The values chose here are selected by me only for the purpose of testing them*
 
+### Sweeps Metrics:
+
+Model                           |Accuracy|Precision|Recall|F1-Score
+--------------------------------|:--------:|:---------:|:------:|:--------:
+[trim-sweep-3](https://wandb.ai/euripedes/lenet-5/runs/viab59a8?workspace=user-euripedes)               | 0.9868   | 0.9868    | 0.9868 | 0.9868
+[rosy-sweep-4](https://wandb.ai/euripedes/lenet-5/runs/mrzf1rjp?workspace=user-euripedes)                 | 0.981   | 0.981    | 0.981 | 0.981 
+[neat-sweep-5](https://wandb.ai/euripedes/lenet-5/runs/fa6mjwq1?workspace=user-euripedes)              | 0.9531   | 0.9539    | 0.9531 | 0.9531 
+[fluent-sweep-6](https://wandb.ai/euripedes/lenet-5/runs/5tw12ekw?workspace=user-euripedes)               | 0.9539    | 0.9542    | 0.9539  | 0.9539
+[copper-sweep-7](https://wandb.ai/euripedes/lenet-5/runs/qf5iwub7?workspace=user-euripedes)                 | 0.9866   | 0.9866    | 0.9866 | 0.9866
+[usual-sweep-8](https://wandb.ai/euripedes/lenet-5/runs/8hhdq803?workspace=user-euripedes)                | 0.9519   | 0.9523    | 0.9519 | 0.9518
+[bright-sweep-9](https://wandb.ai/euripedes/lenet-5/runs/mf6vgofp?workspace=user-euripedes)                 | 0.9604   | 0.9606    | 0.9604 | 0.9604
+[exalted-sweep-10](https://wandb.ai/euripedes/lenet-5/runs/jyhf6swb?workspace=user-euripedes)                  | 0.9877   | 0.9877     | 0.9877 | 0.9877
+[summer-sweep-11](https://wandb.ai/euripedes/lenet-5/runs/ipqiroqx?workspace=user-euripedes)                | 0.9806   | 0.9806    | 0.9806 |  0.9806
+
+
 ### Sweep: Hyperparameters VS Results
 
 <p align="center">
