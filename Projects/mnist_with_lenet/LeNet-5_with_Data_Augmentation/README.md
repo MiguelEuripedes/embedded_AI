@@ -38,14 +38,14 @@ I decided to use this method in order to experiment better the use of our hyperp
 
 Since we are doing Data Augmentation in the process we used Sweeps to also configure our augmentation.
 
-** Augmentation parameters for the Data Generator**
+**Augmentation parameters for the Data Generator**
 * `rotation_range`: *Rotations can be of values 20, 30 or 40*;
 * `width_shift_range`: *We can shift using values 0.15, 0.25 or 0.35*;
 * `height_shift_range`: *We can shift using values 0.1, 0.2 or 0.3*;
 * `shear_range` : *To shear the images we select the value 0.2, 0.3 or 0.45*;
 * `zoom_range` : *The values for zooming the images can be 0.2, 0.5 or 0.7*;
 
-** Normal LeNet-5 model parameters**
+**Normal LeNet-5 model parameters**
 * `conv_layer`: *The number of convolutional layers. The values range from 1 to 3*;
 * `filters`: *This represents the number of filters in each convolutional layers. The values could be: 4, 6, 12 or 16;*
 * `learn_rate`:  *Values are 0.01, 0.001 or 0.005*;
