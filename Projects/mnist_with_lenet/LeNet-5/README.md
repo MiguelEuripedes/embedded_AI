@@ -43,7 +43,7 @@ I decided to use this method in order to experiment better the use of our hyperp
 ### Sweep: Hyperparameters VS Results
 
 <p align="center">
-<img src="./Images/Sweep_linhas.png" width="500px"/>
+<img src="./Images/Sweep_linhas.png" />
 
 ### Sweep: Parameter importance
 
