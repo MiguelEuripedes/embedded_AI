@@ -16,9 +16,11 @@ Here I'll be displaying mainly contents created by me about the subject and the 
   
 ## 📚 Projects:
 
-- First Image Classifier: Project to classify if a image is weather a Panda, a Dog or a Cat. Where I created a very simple MLP model using aspects of MLOps with Weights and Biases. [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Projects/first_image_classifier)
+- First Image Classifier: 
+  - Project to classify if a image is weather a Panda, a Dog or a Cat. Where I created a very simple MLP model using aspects of MLOps with Weights and Biases. [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Projects/first_image_classifier)
 
-- LeNet-5 MNIST Classifier: Project with the objective to work with one of the most known CNN, and giving some introduction to Data Augmentation, Batch Normalization, Dropout, etc. All the project was done using Sweeps, the Weights and Biases tool for hyperparameter tuning. [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Projects/mnist_with_lenet)
+- LeNet-5 MNIST Classifier: 
+  - Project with the objective to work with one of the most known CNN, and giving some introduction to Data Augmentation, Batch Normalization, Dropout, etc. All the project was done using Sweeps, the Weights and Biases tool for hyperparameter tuning. [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/MiguelEuripedes/embedded_AI/tree/main/Projects/mnist_with_lenet)
 
 
 ## :books: Reference 
