@@ -1,3 +1,4 @@
+
 # LeNet-5 Model
 
 For this first model, the proposed idea is to evaluate the original LeNet-5 architecture and then run the hyperparameter tuning.
@@ -24,8 +25,58 @@ Now our mission is to achieve a better result than the one above.
 [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/MiguelEuripedes/embedded_AI/blob/main/Projects/mnist_with_lenet/LeNet-5/LeNet_5.ipynb)
 ## 🚀 Hyperparameter Tunining
 Now, we can finally check the results after hyperparameter tuning:
+
+### Sweep: Hyperparameters configuration
+
+These are the possibilities for each hyperparameter for Sweep to chose. It's important to highlight that we are using W&B **random method** which means that at the end the models configurations are not necessarily the best possible.
+I decided to use this method in order to experiment better the use of our hyperparameter tuning tool.
+
+* `conv_layer`: *The number of convolutional layers. The values range from 1 to 3*;
+* `filters`: *This represents the number of filters in each convolutional layers. The values could be: 4, 6, 12 or 16;*
+* `padding`: *The padding for the convolutional layer could be the same or the 'valid', which means that the layer only uses valid input data.*
+* `learn_rate`:  *Values are 0.01, 0.001 or 0.005*;
+* `epochs`: *Values are 10, 20 or 30*;
+* `batch_size`: *Values are 32 or 64*.
+
+*The values chose here are selected by me only for the purpose of testing them*
+
+### Sweep: Hyperparameters VS Results
+
+<p align="center">
+<img src="./Images/Sweep_linhas.png" width="500px"/>
+
+### Sweep: Parameter importance
+
+This serves to visualize the relationships between our model hyperparameters and output metrics.
+
+<p align="center">
+<img src="./Images/Sweep_parameter_importance.png" width="500px"/>
+
+*The green correlation means that its a positive one and hence the red one a negative correlation*
+
+The three most important parameter were:
+
+    1. `batch_size`: With 0.840 correlation.
+    2. `learn_rate`: With -0.711 correlation.
+    3. `Runtime`: With -0.244 correlation.
+
 ## 📈 Best model 
 Finally we have the Best Model.
+
+### Network Configuration
+After training our Sweep, we ended with this configuration of hyperparameters as the best one. (Remember the disclaimer presented before, its not the best possible to achieve)
+
+* `conv_layer` = 2;
+* `filters` = 6;
+* `padding` = 'same';
+* `learn_rate` = 0.001;
+* `epochs` = 30;
+* `batch_size` = 64;
+
+### Network Training Loss and Accuracy x Epochs
+
+<p align="center">
+<img src="./Images/Best_model_performance.png" width="500px"/>
 
 ### Network Evaluation 
 
@@ -47,6 +98,11 @@ Finally we have the Best Model.
 | macro avg    | 0.99      |  0.99  |    0.99  |  10000  |
 | Weighted avg | 0.99      |  0.99  |    0.99  |  10000  |
 
+### Network Confusion Matrix
+
+<p align="center">
+<img src="./Images/Best_model_Confusion_matrix.png" width="500px"/>
+
 ### Validation Evaluation Metrics
 Now we can check precisely the scores for the evaluation metrics:
 
@@ -64,3 +120,7 @@ Provided by [CodeCarbon](https://codecarbon.io/)
 * **Energy consumed for all GPU:** 0.0009692661255839136 kWh
 * **Energy consumed for all CPU:** 0.001409026852912373 kWh
 * **CO2 emission:** 0.0011477797888429745(in Kg)
+
+# Reference
+
+[Ivanovitch's repository for embedded artificial intelligence repository](https://github.com/ivanovitchm/embedded.ai)
