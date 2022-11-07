@@ -110,6 +110,15 @@ Now we can check precisely the scores for the evaluation metrics:
 * **Validation Precision:** 0.9873088361428725
 * **Validation Recall:** 0.9873
 * **Validation F1:** 0.987298779748653
+    
+### 🏆 **Network Result**.
+At the end our model achieved:
+
+```bash
+  98.73% of Accuracy! 
+```
+Compared to the 95% presented by the original model its a considerable improvement.
+
 
 ### ♻️ Energy consumption and CO2 Emission
 
