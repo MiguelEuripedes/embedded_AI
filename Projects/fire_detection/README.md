@@ -67,6 +67,8 @@ Models                           |Accuracy|Precision|Recall|F1-Score
 --- 
 Here will be display the models **Graph of Acc and Loss per epoch** and the **Confusion Matrix** together.
 * **VGG16**
+	
+	
 *1. Feature Extraction* <p align="center">
 <img src="./Images/vgg16_FE_graphs.png" />
 
@@ -76,6 +78,8 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 
 
 * **MobileNetV1**
+	
+	
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/mobilenet_FE_graphs.png" />
 
@@ -83,6 +87,8 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 <img src="./Images/mobilenet_FT_graphs.png" />
 
 * **InceptionV3**
+	
+	
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/inception_FE_graphs.png" />
 
@@ -90,6 +96,8 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 <img src="./Images/inception_FT_graphs.png" />
 
 * **ResNet50**
+	
+	
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/resnet50_FE_graphs.png" />
 
