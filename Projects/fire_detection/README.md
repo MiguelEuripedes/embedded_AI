@@ -71,7 +71,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 <img src="./Images/vgg16_FE_graphs.png" />
 
 
-	*2. Fine-Tuning*<p align="center">
+*2. Fine-Tuning*<p align="center">
 <img src="./Images/vgg16_FT_graphs.png" />
 
 
@@ -79,21 +79,21 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/mobilenet_FE_graphs.png" />
 
-	*2. Fine-Tuning*<p align="center">
+*2. Fine-Tuning*<p align="center">
 <img src="./Images/mobilenet_FT_graphs.png" />
 
 * **InceptionV3**
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/inception_FE_graphs.png" />
 
-	*2. Fine-Tuning* <p align="center">
+*2. Fine-Tuning* <p align="center">
 <img src="./Images/inception_FT_graphs.png" />
 
 * **ResNet50**
 		*1. Feature Extraction*<p align="center">
 <img src="./Images/resnet50_FE_graphs.png" />
 
-	*2. Fine-Tuning*<p align="center">
+*2. Fine-Tuning*<p align="center">
 <img src="./Images/resnet50_FT_graphs.png" />
 
 
