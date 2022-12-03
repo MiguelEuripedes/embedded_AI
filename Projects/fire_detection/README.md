@@ -80,7 +80,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 * **MobileNetV1**
 	
 	
-		*1. Feature Extraction*<p align="center">
+*1. Feature Extraction*<p align="center">
 <img src="./Images/mobilenet_FE_graphs.png" />
 
 *2. Fine-Tuning*<p align="center">
@@ -89,7 +89,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 * **InceptionV3**
 	
 	
-		*1. Feature Extraction*<p align="center">
+*1. Feature Extraction*<p align="center">
 <img src="./Images/inception_FE_graphs.png" />
 
 *2. Fine-Tuning* <p align="center">
@@ -98,7 +98,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 * **ResNet50**
 	
 	
-		*1. Feature Extraction*<p align="center">
+*1. Feature Extraction*<p align="center">
 <img src="./Images/resnet50_FE_graphs.png" />
 
 *2. Fine-Tuning*<p align="center">
