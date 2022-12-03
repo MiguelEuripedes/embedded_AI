@@ -76,7 +76,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 *2. Fine-Tuning*<p align="center">
 <img src="./Images/vgg16_FT_graphs.png" />
 
-
+---
 * **MobileNetV1**
 	
 	
@@ -86,6 +86,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 *2. Fine-Tuning*<p align="center">
 <img src="./Images/mobilenet_FT_graphs.png" />
 
+---
 * **InceptionV3**
 	
 	
@@ -95,6 +96,7 @@ Here will be display the models **Graph of Acc and Loss per epoch** and the **Co
 *2. Fine-Tuning* <p align="center">
 <img src="./Images/inception_FT_graphs.png" />
 
+---
 * **ResNet50**
 	
 	
