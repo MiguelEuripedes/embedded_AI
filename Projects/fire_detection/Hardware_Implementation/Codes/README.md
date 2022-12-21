@@ -1,1 +1,1 @@
-Here you can find the code to use in your arduino. Save the file as a zip and add it to your lib, them use the camera inference according to your board.
+Here you can find the code to use in your arduino. Save the files as a zip (all together), or download the zip file already, after that add it to your libs on your arduino IDE. Once that is done, check the examples section and seach for the lib you just added, now look for the camera inference thats is suitable to your board.
